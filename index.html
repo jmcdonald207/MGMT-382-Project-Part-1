@@ -75,11 +75,13 @@
                    <li>sign deed here <a href="pdf"></a></li>
                 </ol>
              </div>
-      <footer>
-         <p id="LastModified"></p>
-            <script>
-               document-getElementById("LastModified").innerHTML = "Last modified: "+document.lastModified;
-            </script>
-            <p>Last Edit Completed On: <span id="LastModified"></span></p></footer>
+      
+         <footer>
+  <p>Last Edit Completed On: <span id="LastModified"></span></p>
+
+  <script>
+    document.getElementById("LastModified").innerHTML = document.lastModified;
+  </script>
+         </footer>
    </body>
 </html>
