@@ -5,7 +5,7 @@
          <style>
   body {
     background-color: #FFF5E8;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     color: #333;
     margin: 0;
   }
@@ -32,11 +32,11 @@
     border: 2px solid #A3D6FF;
     background-color: white;
     width: 300px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 15px;
     text-align: center;
   }
-  .contact-box h3 {
+  .contact-box {
     margin: 0;
   }
   footer {
@@ -75,5 +75,11 @@
                    <li>sign deed here <a href="pdf"></a></li>
                 </ol>
              </div>
+      <footer>
+         <p id="LastModified"></p>
+            <script>
+               document-getElementById("LastModified").innerHTML = "Last modified: "+document.lastModified;
+            </script>
+            <p>Last Edit Completed On</p></footer>
    </body>
 </html>
